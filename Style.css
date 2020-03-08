@@ -1,0 +1,106 @@
+body{
+	background-image: url(images/background.jpg);
+	color: #79BAC1;
+	font-family: 'Noto Serif';
+	text-align: center;
+	font-size: 14px;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto Condensed';
+}
+
+h1{
+	color: #655C56;
+	font-weight: 900;
+	font-size: 54px;
+}
+
+h2{
+	color: #2A7886;
+	font-weight: 400;
+	font-size: 27px;
+}
+
+h3{
+	color: #2A7886;
+	font-size: 24px;
+	font-weight: 700;	
+}
+
+#img-circle{
+	width: 140px;
+	border-radius: 50%;
+}
+
+.box-white{
+	margin: 30px auto;
+	padding: 10px;
+	background: white;
+	box-shadow: 8px 8px 4px rgba(0,0,0,0.5);
+	border-radius: 4px;
+}
+
+#extra-marge{
+	padding-bottom: 20px
+}
+
+.container{
+	margin: 20px auto;
+	width: 700px;
+}
+
+@media (max-width: 500px) {
+	.container{
+			width: 400px;
+	}
+}
+
+.hover-black{
+	text-decoration: none;
+	color: #79BAC1;
+	font-weight: bold;
+}
+
+.hover-black:hover{
+	color: black;
+}
+
+#logo{
+	width: 0px auto;
+}
+
+.blue-btn{
+	text-decoration: none;
+	background-color: #79BAC1;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 30px;
+}
+
+.blue-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 5px;
+}
+.list-inline i{
+	font-size: 30px;
+	color: #79BAC1;
+}
+.list-inline i:hover {
+	color: black;
+}
+
+
+
